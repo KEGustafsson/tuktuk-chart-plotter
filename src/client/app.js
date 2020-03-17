@@ -10,6 +10,7 @@ import _ from 'lodash'
 import {
   COG,
   HDG,
+  HDM,
   MAX_ZOOM,
   MIN_ZOOM,
   EXTENSION_LINE_OFF,
@@ -229,7 +230,7 @@ const Menu = ({settings}) => {
               className="heading"
               label="Heading"
               valueLabel={settings.view(L.prop('course'))}
-              onClick={() => settings.view(L.prop('course')).modify(v => (v === COG ? HDG : COG))}
+              onClick={() => settings.view(L.prop('course')).modify(v => (v === COG ? HDM : COG))}
             />
             <MenuSwitch
               label="Extension line"

@@ -71,7 +71,7 @@ function initMap(connection, settings, drawObject) {
     }
 
     const course =
-      settings.course === COG ? vesselData['navigation.courseOverGroundTrue'] : vesselData['navigation.headingTrue']
+      settings.course === COG ? vesselData['navigation.courseOverGroundTrue'] : vesselData['navigation.headingMagnetic']
     if (course) {
       myVessel.setRotationAngle(toDegrees(course))
     } else {

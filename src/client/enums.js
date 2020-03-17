@@ -1,6 +1,7 @@
 const enums = {
   COG: 'COG',
   HDG: 'HDG',
+  HDM: 'HDM',
   EXTENSION_LINE_OFF: 'Off',
   EXTENSION_LINE_2_MIN: '2 min',
   EXTENSION_LINE_5_MIN: '5 min',

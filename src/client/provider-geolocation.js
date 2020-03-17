@@ -21,10 +21,15 @@ function connect() {
       path: 'navigation.headingTrue',
       value: toRadians(event.coords.heading)
     }
+    const hdm = {
+      path: 'navigation.headingMagnetic',
+      value: toRadians(event.coords.hdm)
+    }
     const vesselData = {
       'navigation.position': position,
       'navigation.speedOverGround': sog,
-      'navigation.headingTrue': heading
+      'navigation.headingTrue': heading,
+      'navigation.headingMagnetic': hdm
     }
     rawStream.push(vesselData)
   }

@@ -24,6 +24,14 @@ const InstrumentConfigs = {
     format: '00',
     unit: '°'
   },
+  hdm: {
+    dataKey: 'navigation.headingMagnetic',
+    transformFn: toDegrees,
+    className: 'hdm',
+    title: 'HDM',
+    format: '00',
+    unit: '°'
+  },
   cog: {
     dataKey: 'navigation.courseOverGroundTrue',
     transformFn: toDegrees,
