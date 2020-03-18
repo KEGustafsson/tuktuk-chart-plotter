@@ -255,8 +255,8 @@ const Menu = ({settings}) => {
         </div>
         <div className="credits">
           <div className="github-link">
-            <a href="https://brighthouse.fi" target="_blank">
-              <img src="BHI-64px.png">
+            <img src="BHI-64px.png" />
+            <a href="https://brighthouse.fi">Brighthouse Intelligence Ltd</a>
           </div>
         </div>
       </div>
