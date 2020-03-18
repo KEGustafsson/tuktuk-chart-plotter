@@ -255,8 +255,8 @@ const Menu = ({settings}) => {
         </div>
         <div className="credits">
           <div className="github-link">
-            <img src="GitHub-Mark-64px.png" />
-            <a href="https://github.com/vokkim/tuktuk-chart-plotter">https://github.com/vokkim/tuktuk-chart-plotter</a>
+            <a href="https://brighthouse.fi" target="_blank">
+              <img src="BHI-64px.png">
           </div>
         </div>
       </div>
